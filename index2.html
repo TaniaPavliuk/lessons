@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AUTOlux на Печерске</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Welcome to AUTOlux!</h1>      
+    </div>
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                    <legend><b>Регистрация</b></legend>
+                    <p>
+                 <label>
+                     Имя:
+                    <input id="nameId" type="text" name="Name" placeholder="Введите имя"> 
+                 </label>
+                </p>
+                <p>
+                    <label>
+                        Фамилия:
+                        <input type="text" name="surname" placeholder="Введиите фамилию"></label>
+                </p>
+                <p>
+                    <label>
+                        Логин:
+                       <input id="loginId" type="text" name="login" placeholder="Введите логин" required> 
+                    </label>
+                   </p>
+                <p>
+                    <label>
+                        Почта:
+                        <input type="email" name="email" placeholder="Введите адрес эл. почты" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Телефон:
+                        <input type="tel" name="phone" placeholder="Введите номер телефона" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Пароль:
+                        <input type="password" name="password" placeholder="Введите пароль" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Подтверждение пароля:
+                        <input type="password" name="password" placeholder="Подтвердите пароль" autocomplete="current-password" required>
+                    </label>
+                </p>
+                <p>
+                    <span>Укажите Ваш пол:</span>
+                    <label><br>
+                        <input type="radio" name="sex" value="male">
+                        Мужчина
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="sex" value="female">
+                        Женщина
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="sex" value="none">
+                        Не указывать
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="age">
+                        Мне уже есть 18
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="hidden">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="lisence">
+                        Принимаю условия пользовательского соглашения
+                    </label>
+                </p>
+                <button type="submit">Send</button>
+                 </fieldset>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

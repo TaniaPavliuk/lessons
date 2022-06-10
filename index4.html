@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AUTOlux на Печерске</title>
+</head>
+<body>
+    <h1>Welcome to AUTOlux!</h1> 
+<main>
+    <section>
+        <h4>Заполните поля далее:</h4>
+        <form>
+            <fieldset>
+                <legend>Параметры:</legend>
+                <p>
+                    <span>Выберите тип кузова:</span><br>
+                    <label>
+                        <select id="selectedCarcassList" name="Carcasslist">
+                        <option value="none" selected disabled>Не выбрано</option>
+                        <option value="sedan">Седан</option>
+                        <option value="crossover">Кроссовер</option>
+                        <option value="minivan">Минивен</option>
+                        <option value="hatchback">Хетчбек</option>
+                        <option value="wagon">Универсал</option>
+                        <option value="coupe">Купе</option>
+                        <option value="lightWan">Легковой фургон</option>
+                        <option value="cabriolet">Кабриолет</option>
+                        <option value="pickup">Пикап</option>
+                        <option value="limousine">Лимузин</option>
+                        <option value="roadster">Родстер</option>
+                        <option value="other">Другой</option>
+                    </select>
+                    </label>     
+                </p>
+                <p>
+                    <span>Выберите марку автомобиля:</span><br>
+                    <label>
+                        <select id="selectedBrandList" name="Brandlist">
+                        <option value="none" selected disabled>Не выбрано</option>
+                        <option value="Audi">Audi</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Hyundai">Hyundai</option>
+                        <option value="Kia">Kia</option>
+                        <option value="Lexus">Lexus</option>
+                        <option value="Mazda">Mazda</option>
+                        <option value="Mercedes-Benz">Mercedes-Benz</option>
+                        <option value="Mitsubishi">Mitsubishi</option>
+                        <option value="Nissan">Nissan</option>
+                        <option value="Opel">Opel</option>
+                        <option value="Peugeot">Peugeot</option>
+                        <option value="Renault">Renault</option>
+                        <option value="Skoda">Skoda</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Volkswagen">Volkswagen</option>
+                        <option value="Volvo">Volvo</option>
+                        <option value="Tesla">Tesla</option>
+                        <option value="Cadillac">Cadillac</option>
+                        <option value="Lincoln">Lincoln</option>
+                        <option value="Jeep">Jeep</option>
+                    </select>
+                    </label>     
+                </p>
+                <p>
+                    <span>Выберите страну производителя:</span><br>
+                    <label>
+                        <select id="selectedCountryList" name="Countrylist">
+                        <option value="none" selected disabled>Не выбрано</option>
+                        <option value="USA">США</option>
+                        <option value="Japan">Япония</option>
+                        <option value="China">Китай</option>
+                        <option value="Italy">Италия</option>
+                        <option value="France">Франция</option>
+                        <option value="CzechRepublic">Чехия</option>
+                        <option value="SouthKorea">Южная Корея</option>
+                        <option value="Germany">Германия</option>
+                        <option value="Canada">Канада</option>
+                        <option value="Spain">Испания</option>
+                        <option value="Other">Другая</option>
+                    </select>
+                    </label> 
+                </p>  
+                <p>
+                    <span>Выберите тип топлива:</span><br>
+                    <label>
+                        <select id="selectedFuelTypeList" name="FuelTypelist">
+                        <option value="none" selected disabled>Не выбрано</option>
+                        <option value="petrol">Бензин</option>
+                        <option value="diesel">Дизель</option>
+                        <option value="gas">Газ</option>
+                        <option value="gasPetrol">Газ/Бензин</option>
+                        <option value="hybrid">Гибрид</option>
+                        <option value="electric">Электро</option>
+                        <option value="methaneGas">Газ метан</option>
+                        <option value="propaneButaneGas">Газ пропан-бутан</option>
+                        <option value="other">Другое</option>
+                    </select>
+                    </label> 
+                </p>
+                <p>
+                    <span>Выберите тип коробки передач:</span><br>
+                    <label>
+                        <select id="selectedTransmissionTypeList" name="transmissionTypelist">
+                        <option value="none" selected disabled>Не выбрано</option>
+                        <option value="manual">Ручная/Механика</option>
+                        <option value="automatic">Автомат</option>
+                        <option value="tiptronic">Типтроник</option>
+                        <option value="robot">Робот</option>
+                        <option value="variableSD">Вариатор</option>
+                    </select>
+                    </label> 
+                </p>
+                <p>
+                    <span>Комфорт:</span><br>
+                    <label>
+                        <select id="selectedComfortList" name="comfortlist">
+                        <option value="none" selected disabled>Не выбрано</option>
+                        <option value="onBoardComp">Бортовой компьютер</option>
+                        <option value="HeatedMirrors">Подогрев зеркал</option>
+                        <option value="Heating-of-the-steering-wheel">Обогрев рулевого колеса</option>
+                        <option value="Key-access-system">Система доступа без ключа</option>
+                        <option value="start-system">Система "старт-стоп"</option>
+                        <option value="Electroregulation">Электрорегулировка руля</option>
+                        <option value="memory-sterring-weel">Руль с памятью положения</option>
+                        <option value="Multifunctional-steering-wheel">Мультифункциональное рулевое колесо</option>
+                        <option value="Seats-with-massage">Сидения с массажем</option>
+                        <option value="opening-of-the-trunk-without-hands">Открытие багажника без помощи рук</option>
+                        <option value="Electric-drive-of-mirrors">Электропривод зеркал</option>
+                        <option value="Leather-salon">Кожаный салон</option>
+                        <option value="door-closer">Дверной доводчик</option>
+                        <option value="Coincoil-and-ashtray">Прикуриватель и пепельница</option>
+                        <option value="Heated-windshield">Обогрев лобового стекла</option>
+                        <option value="Adaptive-cruise">Адаптивный круиз</option>
+                        <option value="Pneumo-suspension">Пневмоподвеска</option>
+                        <option value="Electronic-dashboard">Электроная приборная панель</option>
+                        <option value="Remote-engine-start">Дистанционный запуск двигателя</option>
+                        <option value="Hatch">Люк</option>
+                        <option value="Heated-windshield">Обогрев лобового стекла</option>
+                        <option value="Adaptive-cruise">Адаптивный круиз</option>
+                        <option value="other">Другое</option>
+                    </select>
+                    </label> 
+                </p>    
+                    <p>
+                        <label>
+                            Цена: От
+                            <input type="range" id="price1" min="1000" max="100000" step="50"><span>До $</span>
+                        </label>
+                    </p>
+                    <p>
+                        <span>Год выпуска:</span><br>
+                        <label>
+                            От:
+                            <input type="date">
+                        </label>
+                        <label>
+                            До:
+                            <input type="date">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Color:
+                            <input type="color">
+                        </label>
+                    </p>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Send</button>
+            </fieldset>
+            <fieldset>
+                <legend>Состояние:</legend>
+                <p>
+                    <label>
+                        <input type="radio" name="accident" value="male">
+                        Был в ДТП
+                    </label>
+                </p> <p>
+                    <label>
+                        <input type="radio" name="order" value="male">
+                        Автомобиль под заказ
+                    </label>
+                </p> <p>
+                    <label>
+                        <input type="radio" name="loan" value="male">
+                        Автомобиль в кредите
+                    </label>
+                </p> <p>
+                    <label>
+                        <input type="radio" name="confiscate" value="male">
+                        Аввтомобиль конфискован
+                    </label>
+                </p> <p>
+                    <label>
+                        <input type="radio" name="hintUSA" value="male">
+                        Пригнан из США
+                    </label>
+                </p> <p>
+                    <label>
+                        <input type="radio" name="hintEU" value="male">
+                        Пригнан из Европы
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Оставьте развернутый комментарий:</span><br>
+                        <textarea rows="10" style="resize:none"></textarea>
+                    </label>
+                </p>
+                <button type="reset">Reset</button>
+                <button type="submit">Send</button>
+            </fieldset>
+            <p>
+                <label>
+                    <input type="hidden">
+                </label>
+            </p>
+        </form>
+    </section>
+</main>
+    
+</body>
+</html>
