@@ -37,6 +37,7 @@ header {
     color: #FFFFFF;
     border: none;
     padding: 20px 40px;
+    cursor: pointer;
 }
 
 .about-block {
