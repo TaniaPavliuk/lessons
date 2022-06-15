@@ -132,10 +132,9 @@ header nav a:hover, header nav a:focus {
    margin: 0 42px;
 }
 
-/* iframe {
-    width: 1110px;
-    height: 600px;
-} */
+iframe {
+    border: none;
+}
 
 .footer {
     background-color: #34547A;
