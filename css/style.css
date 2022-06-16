@@ -1,0 +1,42 @@
+* {
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(195, 168, 168);
+    border-radius: 5%;
+}
+
+.global-header {
+    background-color: rgb(217, 197, 197);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0;
+  }
+  img {
+    border: 2px outset; color: rgb(200, 217, 93); 
+    width: 100%;
+    }
+ i {
+    color: rgb(228, 14, 228);
+ }
+
+
+ #paral {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(30, 77, 85);
+    background-color: rgb(195, 231, 162);
+ }
+
+ .paragraph {
+    color: rgb(63, 63, 214);
+    background-color: rgb(224, 249, 241);
+ }
+
+ h1, h2 {
+    font-weight: bold;
+    color: rgb(43, 44, 57);
+ }
+
+ p {
+    padding-bottom: 15px;
+ }
