@@ -606,7 +606,6 @@ footer {
 .footer-pages {
     display: flex;
     flex-direction: row;
-    align-items: top;
     height: 100%;
 
     
@@ -637,9 +636,7 @@ footer {
     text-decoration: none;
 }
 
-.navigation1 {
-    
-}
+
 
 .navigation2 {
     display: flex;
@@ -650,9 +647,7 @@ footer {
     display: flex;
 }
 
-.navigation3 {
-    
-}
+
 
 .navigation-tile {
     padding-left: 3vw;
