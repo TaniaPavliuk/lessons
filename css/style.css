@@ -269,9 +269,6 @@ header {
 .card-column {
     display: flex;
     flex-direction: row;
-    /* min-width: 0; */
-
-
 }
 
 .card {
@@ -332,22 +329,32 @@ header {
 }
 
 
-.feature {
-    display: flex;
-    flex-direction: row;
+.innovation {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   margin-top: 10vh;
 }
 
-.feature-text1 {
+.feature-text {
     font-family: 'Style Script';
     font-style: normal;
     font-weight: 400;
     font-size: 137px;
     line-height: 112px;
-    text-align: center;
     color: #68513F;
+    margin-top: 2vh;
+    margin-bottom: -5vh;
 }
 
-.feature-text2 {
+.innovation-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    grid-gap: 100px;
+}
+
+.innovation-text {
     font-family: 'STSong';
     font-style: normal;
     font-weight: 300;
@@ -357,7 +364,7 @@ header {
     color: #000000;
 }
 
-.feature-text3 {
+.tempo-text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -365,26 +372,9 @@ header {
     line-height: 31px;
     text-align: center;
     color: #000000;
+    margin-top: -3vh;
 }
 
-.feature-button {
-    box-sizing: border-box;
-    background: #F1EBE7;
-    border: 1px solid #DACEC6;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    color: #68513F;
-    cursor: pointer;
-}
-
-.innovation {
-   display: flex;
-   flex-direction: row;
-}
 
 .innovation-img {
     width: 41vw;
@@ -395,40 +385,21 @@ header {
     
 }
 
-.innovation-feature {
-    font-family: 'Style Script';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 137px;
-    line-height: 112px;
-    text-align: center;
-    color: #68513F;
+.logo-group {
+    display: flex;
+    grid-gap: 70px;
+    max-width: 850px;
+    padding-top: 7vh;
+    padding-bottom: 20vh;
 }
 
-.innovation-inn {
-    font-family: 'STSong';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 70px;
-    line-height: 98px;
-    text-align: center;
-    color: #000000;
-}
 
-.innovation-temp {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 31px;
-    text-align: center;
-    color: #000000;
-}
 
 .innovation-button {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 45px;
     left: 0%;
     right: 0%;
@@ -437,27 +408,344 @@ header {
     border: 1px solid #DACEC6;
     color: #68513F;
     cursor: pointer;
+    width: 7vw;
+    margin-top: 3vh;
 }
 
-.innovation-center-button {
-    position: relative;
-    left: 50%;
+.generate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    
 }
 
-.innovation-div {
-    position: relative;
+
+
+.veririo-img {
+    object-fit: contain;
 }
+
+.generate-p {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+
+
 
 .wash {
-    position: relative;
-    background-image: url(./../images/neck.png);
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: 100px;
-    z-index: 20;
+    max-width: 1370px;
+    position: relative;
+    margin-left: -1.5vw; 
 }
 
-.wash p {
-    z-index: 19;
+.wash-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;   
 }
+
+
+   
+.link-group {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 65px 35px;
+}
+
+.first-link {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 15%;
+    text-decoration: none;
+}
+
+.second-link {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+}
+
+.third-link {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 5%;
+    text-decoration: none;
+}
+    
+   
+
+
+.skinn-blog {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1300px;
+    width: 100%;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    margin-top: 3vh;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+
+.skinn-text1 {
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    margin-left: 1.5vw;
+    margin-right: 4vw;
+    
+}
+
+.skinn-text2 {
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    margin-left: 1.5vw;
+    margin-right: 0.5vw;
+}
+
+.card-blog {
+    display: flex;
+    grid-gap: 90px;
+}
+
+.description {
+    display: flex;
+    grid-gap: 30px;
+}
+
+.description img {
+    max-width: 100%;
+}
+
+.skinn-paragraph {
+    margin-top: 9vh;
+    text-align: center;
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 98px;
+    text-align: center;
+    color: #000000;
+}
+
+.skinn-button1 {
+    background: #F1EBE7;
+    border: 1px solid #DACEC6;
+    border-radius: 166px;
+    color: #68513F;
+    align-self: center;
+    padding: 10px 20px 10px 20px;
+    margin-top: 7vh;
+    margin-left: 1.5vw;
+    cursor: pointer;
+    
+  
+}
+
+.skinn-button2 {
+    background: #F1EBE7;
+    border: 1px solid #DACEC6;
+    border-radius: 166px;
+    color: #68513F;
+    align-self: center;
+    padding: 10px 20px 10px 20px;
+    margin-top: 12vh;
+    margin-left: 1.5vw;
+    cursor: pointer;
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50vh;
+    margin: 10vh 0;
+    padding: 30px 50px;
+    background: #E7DED8;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.footer-pages {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    height: 100%;
+
+    
+}
+
+.footer-skinn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5vh;
+    width: 15vw;
+}
+
+.skin-text {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    grid-gap: 5px;
+    cursor: pointer;
+    
+}
+
+.nav-links .link {
+    color: #68513F;
+    text-decoration: none;
+}
+
+.navigation1 {
+    
+}
+
+.navigation2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation2 p {
+    display: flex;
+}
+
+.navigation3 {
+    
+}
+
+.navigation-tile {
+    padding-left: 3vw;
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 39px;
+    color: #000000;
+
+}
+.pages-list {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.pages-list li {
+    padding: 1vh;
+}
+
+.pages {
+    display: flex;
+    grid-gap: 40px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.contacts-title {
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 39px;
+    color: #000000;
+
+}
+
+.contacts-pages {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+.footer-contacts .link {
+    color: #68513F;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-we-here {
+    display: flex;
+    justify-content: center;
+}
+
+.we-here-title {
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.we-here-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 1vh;
+}
+
+.we-here-img {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 11vh;
+    margin-left: -1.5vw;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
